@@ -21,6 +21,8 @@ If running locally using a fork of this repository, you can install the required
 pip install -r requirements.txt
 ```
 
+Results from completed local training runs, including validation metrics, runtimes, emissions estimates, checkpoint sizes, and SHA-256 hashes, are documented in [results/README.md](results/README.md).
+
 Note: The code also uses `aim` to track training progress, which is a [Python package available for Linux and MacOs](https://aimstack.readthedocs.io/en/latest/quick_start/setup.html). If you are using Windows, you may have trouble installing `aim`. If so, it is recommended to use Google Colab to execute the code instead, or remove uses of `AimLogger` in the code.
 
 ## Contribute to this tutorial
