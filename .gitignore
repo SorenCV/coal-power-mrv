@@ -1,0 +1,11 @@
+# Downloaded tutorial data and extracted imagery
+data/
+images/
+
+# Training outputs
+models/
+.aim/
+emissions.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
